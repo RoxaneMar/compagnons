@@ -1,0 +1,26 @@
+/* -------------------------------------
+ * Your CSS code for flash notices and alerts
+* ------------------------------------- */
+
+.button {
+  font-size: 32px;
+  border: none;
+  border-radius: 10px;
+  background-color: $blue;
+  padding: 4px 25px;
+  color: white;
+  vertical-align: middle;
+  align-self: flex-end;
+  margin: 25px 0;
+  position: absolute;
+  bottom: -40px;
+  right: 640px;
+}
+
+@media(max-width: 720px) {
+  .button {
+     right: 45px;
+     font-size: 18px;
+     padding: 4px 15px;
+  }
+}
